@@ -7,7 +7,7 @@
 
 ## Usage
 
-* `docker build -t cvs2git .`
+* `docker build --network host -t cvs2git .`
 * `docker run -it -v /path/to/project:/cvs -v /path/to/wanted/git/repo:/git -v /path/to/log/output:/tmp/cvs_migration cvs2git`
 
 ### Migration with history
