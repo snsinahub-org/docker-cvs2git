@@ -1,4 +1,5 @@
-FROM centos:centos7
+#FROM centos:centos7
+FROM centos:7
 
 RUN ls -l /etc/yum.repos.d/ 
 RUN cat /etc/yum.repos.d/CentOS-Base.repo
